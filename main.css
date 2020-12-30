@@ -1,0 +1,233 @@
+/*
+ Top element
+ */body , .body{
+   position: static;
+   width: 100%;
+   height: auto;
+   background-image: url(images/backgr.jpg);
+   background-size:  cover ;
+   background-repeat:repeat-y;
+      margin:0;
+
+ }
+ #header {
+
+  position: sticky;
+     width: 100%;
+     height:10%;
+    border: solid 1px black;
+     background-size: cover;
+     background-image :url(images/bike/topbar.jpg) ;
+    text-align: center;
+    opacity: 0.8;
+
+    }
+
+    h1{
+      dicplay: center;
+      margin:0;
+            width:100%;
+      font-size: 50px;
+      font-family:  "Times New Roman", sans-serif;
+      color:white;
+      opacity: 0.9 ;
+      letter-spacing: 3px;
+    }
+
+    /* Search */
+.search {
+  position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 10px;
+    left: 80%;
+    margin: 0;
+}
+table {
+
+  top: 1%;
+      width: 100%;
+      left: 0%;
+      height: 35%;
+      font-size: 85px;
+      color: white;
+}
+
+.homea , .homeb, .homed , .homec {
+  text-decoration: none;
+color: white;
+border: solid 4px white;
+border-radius: 9px;
+padding: 5%;
+  }
+}
+th{
+    border-radius: 13px;
+     width: 20%;
+}
+ul{
+
+  position: absolute;
+  top: 30%;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 11%;
+  height: 55%;
+  text-align: center;
+
+}
+
+li{
+
+  text-decoration: none;
+    padding: 6px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: cursive;
+    width: 86%;
+    border-radius: 9px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-top: 10%
+
+
+}
+li:hover {
+  text-decoration: none;
+    padding: 6px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: cursive;
+    width: 86%;
+    border-radius: 9px;
+    background-color: aliceblue;
+        margin-top: 10% ;
+        opacity:1;
+
+
+}
+.navigation {
+
+  position: absolute;
+  width: 100%;
+  height: 62%;
+  top: 7%;
+}
+#home:hover,#bike:hover ,#hike:hover, #water:hover {
+
+    opacity: 0.7  ;
+}
+.video{
+  top: 31%;
+  float: right;
+  position: absolute;
+  right: 10px;
+  height: 41%;
+  width: 38%;
+}
+
+.video2{
+  top: 75%;
+float: right;
+position: absolute;
+right: 10px;
+height: 41%;
+width: 38%;
+}
+
+
+.sitecheck{
+  bottom: 1%;
+    float: none;
+    position: absolute;
+    left: 10%;
+    height: 78%;
+    width: 50%;
+    margin: 9px;
+    top: 30%;
+
+}
+.form1{
+
+  text-align: center;
+    position: absolute;
+    right: 1%;
+    top: 75%;
+    width: 36%;
+    border: solid 12px white;
+    border-radius: 20px;
+    padding: 2px;
+}
+.form2{
+  margin-top: 2%;
+
+}
+
+
+ a{
+    border: solid 6px transparent;
+    color: darkslategrey;
+    text-decoration: none;
+        color: blue;
+}
+
+label{
+
+  font-size: 18px;
+  color: white;
+}
+#home{
+  background-image: url(images/bike/home.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%;
+border-radius: 15px;
+
+}
+#bike{
+  background-image: url(images/bike/bike.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%;
+      border-radius: 15px;
+
+}
+#hike{
+  background-image: url(images/hike.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%;
+      border-radius: 15px;
+}
+#water{
+  background-image: url(images/bike/kayak.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%;
+      border-radius: 15px;
+}
+#form1{
+  margin: 0;
+    font-size: 50px;
+    font-family: "Times New Roman", sans-serif;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 3px;
+
+}
+#lname , #fname {
+
+  width: 35%;
+  margin: 6px;
+  height: 28px;
+
+
+}
+#submit{
+  width: 23%;
+font-size: 33px;
+}
