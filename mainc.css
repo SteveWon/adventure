@@ -245,10 +245,12 @@ border-radius: 15px;
   padding-left: 1%;
   text-align: center;
 }
-img{           padding: 4px;
+img{      padding: 1em;
     position: relative;
     margin-top: 4%;
-    width: 14%;}
+    width: 17%;
+    border-radius: 9px;
+    border: solid 2px white;}
 
     .icons {
       position: relative;
