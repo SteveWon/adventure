@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>My Adventure Site</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Stefan Toshkov">
+				<link rel="stylesheet"   type="text/css" href = "main.css" />
+<script src="https://www.youtube.com/iframe_api"></script>
+
+</head>
+<body class="bodynews" style="">
+<div class="newstop" style="text-align: -webkit-center;position: relative;top: 4%;width: 100%;align-content: center;">
+
+		<h1 style="    color: white;
+    opacity: 1.9;
+    text-align: center;
+    font-size: 104px;
+    border: solid 5px;
+    width: 100%;
+    border-radius: 19%;
+">Check weather and forecast</h1>
+
+
+
+
+<div style="	 position: absolute; width: 13%; height: 26%;top: 5%;}"display:"block" >
+			<audio id="intro">
+<source id="intro" src="intro.mp3" preload="auto" autoplay type="audio/mpeg">
+	</audio>
+</div>
+
+
+
+</div>
+<div class="intonews">
+<ul>
+ <li><a href="index.html" style="text-decoration: none;" >Home</a></li>
+ <li><a href="news.html"  style="text-decoration: none;" >News</a></li>
+ <li><a href="contacts.html"  style="text-decoration: none;" >Contact</a></li>
+ <li><a href="about.asp"  style="text-decoration: none;" >About</a></li>
+</ul>
+</div>
+
+<embed	 id="inlineFrameExample" title="Inline Frame Example" width="" height="" src="https://www.weather-forecast.com/" style="    position: absolute;
+    right: 14%;
+	    width: 69%;
+    height: 100%;">
+</embed>
+
+<script>
+ window.onload = function() {
+    document.getElementById("intro").play();
+}
+</script>
+
+
+
+
+</html>
