@@ -7,7 +7,10 @@
   <meta name="author" content="Stefan Toshkov"/	>
 <script src="https://www.youtube.com/iframe_api"></script>
 	<link rel="stylesheet"   type="text/css" href = "main.css" />
-<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+	<body>
 <div class="body">
 
 </div>
@@ -34,7 +37,7 @@
  <li><a href="index.html" style="text-decoration: none;" >Home</a></li>
  <li><a href="news.html"  style="text-decoration: none;" >News</a></li>
  <li><a href="contacts.html"  style="text-decoration: none;" >Contact</a></li>
- <li><a href="about.asp"  style="text-decoration: none;" >About</a></li>
+ <li><a href="about.html"  style="text-decoration: none;" >About</a></li>
 </ul>
 </div>
 
@@ -54,16 +57,68 @@
 <h1 id="form1">!!! Register Now !!!</h1>
 
 <form class="form2"action="/">
-  <label for="fname">Full Name or Nickname!</label><br>
+
+	<label for="fname">Full Name or Nickname!</label><br>
   <input placeholder=" John Smith... " type="text" id="fname" name="fname"><br><br>
-  <label for="lname">EMAIL Address!</label><br>
+
+	<label for="lname">EMAIL Address!</label><br>
   <input placeholder="your@email.com "type="text" id="lname" name="lname"><br><br>
-  <input id="submit"type="submit" value="Submit">
+
+<label for="country">Choose Country!</label><br>
+
+	<select  style=" width: 5em;
+    height: 3em;
+    margin: 3px;
+    position: relative;
+    left: 12%;"
+
+
+
+    name="country" class="validate[required]" id="form-validation-field-0">
+	<option value="Bulgaria">BG</option>
+	<option value="IRELAND">IRELAND</option>
+	<option value="USA">USA</option>
+	<option value="CANADA">CANADA</option>
+	<option value="OTHER">OTHER</option>
+	</select>
+
+	<button id="submit"value="Submit"> Register</button >
 </form>
 
 <p style="color: white;">Click the "Register" button and the form-data will be sent to a page on the
-server called "reg_db.php".</p>
+server called ""Hasta la vista"".</p>
   </div>
 
+	<footer style="
+	    position: fixed;
+	    width: 100%;
+	    text-align: center;
+	    background-color: black;
+	    padding: 1em;
+	    height: 2em;
+	    bottom: 0px;"
+	>
 
+	<h1 style="width: 100%;
+	    background-size: cover;
+	    font-size: 1em;
+	    position: relative;
+	    top: 1em;
+	    right: -41em;">
+	This site was developed by Stefan Toshkov 2020
+	</h1>
+	<p style="
+	    position: relative;
+	    color: white;
+	    left: 26%;
+	    width: 27em;
+	    bottom: 1em;
+	"> Copyright © 2008-2021 MyAdventureSite . All Rights Reserved.
+	You are the light of the world...
+	</p>
+	</footer>
+
+	<script>
+document.getElementById("demo").style.display = "none";
+</script>
 </html>

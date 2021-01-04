@@ -7,19 +7,28 @@
   <meta name="author" content="Stefan Toshkov"/	>
 <script src="https://www.youtube.com/iframe_api"></script>
 	<link rel="stylesheet"   type="text/css" href = "mainc.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body style="    background-size: 206%;
     background-position-x: 50%;
     background-position-y: -5%;
-}" >
- <h1 style="
+                            }" >
+
+														<div style="	 position: absolute; width: 13%; height: 26%;top: 5%;}"display:"block" >
+																	<audio id="intro">
+														<source id="intro" src="intro.mp3" preload="auto" autoplay type="audio/mpeg">
+															</audio>
+														</div>
+														 <h1 style=" padding: 1%;
     position: absolute;
     width: 100%;
     text-align: center;
     font-size: 86px;
-    opacity: 0.9;
-    background-color: rgba(0, 0, 215, 0.4);"> Welcome to my Leaders Page
+    opacity: 0.8;
+    background-size: cover;
+    background-color: cornflowerblue;"> Welcome to my Leaders Page
 
 	</h1>
 
@@ -32,7 +41,48 @@
 
 
 	 <img src="images/bike/hikingerst.jpeg" alt="golden">
-	       <h1  class="icon"> Dave Malkovich</h1>
+
+
+	 <h2 style="position: relative;
+    text-align: center;
+    left: 4%;
+    width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	   <form class="modal-content animate" action="/action_page.php" method="post">
+	     <div class="imgcontainer">
+	       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	       
+	     </div>
+
+	     <div class="container">
+	       <label for="uname"><b>Full Name</b></label>
+	       <input type="text" placeholder="Enter Full Name" name="uname" required>
+
+	       <label for="tel"><b>Telephone</b></label>
+	       <input type="password" placeholder="Enter Password" name="tel" required>
+
+				 <label for="psw"><b>Password</b></label>
+				 <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+	       <button type="submit">Send</button>
+	       <label>
+	         <input type="checkbox" checked="checked" name="remember"> Remember me
+	       </label>
+	     </div>
+
+	     <div class="container" style="background-color:#f1f1f1">
+	       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	       <span class="psw">Forgot <a href="#">password?</a></span>
+	     </div>
+	   </form>
+	 </div>
+
+			   <h1  class="icon"> Dave Malkovich</h1>
 				 <p> Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
 </div>
@@ -41,7 +91,41 @@
 
 
 	 <img src="images/bike/hiking2.jpg" alt="hike2">
-	       <h1  class="icon"> John Smith </h1>
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="/action_page.php" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="img_avatar2.png" alt="Avatar" class="avatar">
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Username</b></label>
+	 			<input type="text" placeholder="Enter Username" name="uname" required>
+
+	 			<label for="psw"><b>Password</b></label>
+	 			<input type="password" placeholder="Enter Password" name="psw" required>
+
+	 			<button type="submit">Login</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+				 <h1  class="icon"> John Smith </h1>
 				 <p> Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massasemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursussemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
 				</div>
@@ -51,7 +135,43 @@
 
 
 	 <img src="images/bike/hiking3.jpg" alt="hiking3">
-	       <h1  class="icon"> Aexander Sthoff</h1>
+
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="img_avatar2.png" alt="Avatar" class="avatar">
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Username</b></label>
+	 			<input type="text" placeholder="Enter Username" name="uname" required>
+
+	 			<label for="psw"><b>Password</b></label>
+	 			<input type="password" placeholder="Enter Password" name="psw" required>
+
+	 			<button type="submit">Login</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+
+				 <h1  class="icon"> Aexander Sthoff</h1>
 				 <p> Morbi semper nisl et dictum cursus. In hac semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velsemper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam velhabitasse platea dictumst.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
 
@@ -61,7 +181,43 @@
 
 
  	 <img src="images/bike/golden.jpg" alt="golden">
- 	       <h1  class="icon"> Loren Smith Jr.</h1>
+
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="/" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="images/bike/bike.png" alt="Avatar" class="avatar"/>
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Username</b></label>
+	 			<input type="text" placeholder="Enter Username" name="uname" required>
+
+	 			<label for="psw"><b>Password</b></label>
+	 			<input type="password" placeholder="Enter Password" name="psw" required>
+
+	 			<button type="submit">Login</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+
+				 <h1  class="icon"> Loren Smith Jr.</h1>
  				 <p> Morbi semper nisl et rbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
  </div>
@@ -70,7 +226,43 @@
 
 
  	 <img src="images/bike/kajakart2.jpeg" alt="golden">
- 	       <h1  class="icon"> Moly Mileva</h1>
+
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="/action_page.php" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="img_avatar2.png" alt="Avatar" class="avatar">
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Username</b></label>
+	 			<input type="text" placeholder="Enter Username" name="uname" required>
+
+	 			<label for="psw"><b>Password</b></label>
+	 			<input type="password" placeholder="Enter Password" name="psw" required>
+
+	 			<button type="submit">Login</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+
+				 <h1  class="icon"> Moly Mileva</h1>
  				 <p> Morbi semper nisl et tasse platea dictumst.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
  </div>
@@ -79,7 +271,43 @@
 
 
  	 <img src="images/bike/kayakart2.jpeg" alt="golden">
- 	       <h1  class="icon"> Dave Malkovich</h1>
+
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="/action_page.php" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="hike.jpg" alt="Avatar" class="avatar">
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Username</b></label>
+	 			<input type="text" placeholder="Enter Username" name="uname" required>
+
+	 			<label for="psw"><b>Password</b></label>
+	 			<input type="password" placeholder="Enter Password" name="psw" required>
+
+	 			<button type="submit">Login</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+
+				 <h1  class="icon"> Dave Malkovich</h1>
  				 <p> Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
  </div>
@@ -88,7 +316,47 @@
 
 
  	 <img src="images/bike/kayak.jpg" alt="golden">
- 	       <h1  class="icon"> Dave Malkovich</h1>
+
+
+	 <h2 style="position: relative;
+	  text-align: center;
+	  left: 4%;
+	  width: 12%;">Contact Me </h2>
+
+	 <button onclick="document.getElementById('id01').style.display='block'" style="">HERE</button>
+
+	 <div id="id01" class="modal">
+
+	 	<form class="modal-content animate" action="/action_page.php" method="post">
+	 		<div class="imgcontainer">
+	 			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	 			<img src="hike.jpg" alt="Avatar" class="avatar">
+	 		</div>
+
+	 		<div class="container">
+	 			<label for="uname"><b>Full Name</b></label>
+	 			<input type="text" placeholder="Enter Full Name" name="uname" required>
+
+	 			<label for="tel"><b>Telephone:</b></label>
+	 			<input type="password" placeholder="Enter your Telephone " name="tel" required>
+
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+
+
+	 			<button type="submit">Send</button>
+	 			<label>
+	 				<input type="checkbox" checked="checked" name="remember"> Remember me
+	 			</label>
+	 		</div>
+
+	 		<div class="container" style="background-color:#f1f1f1">
+	 			<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	 			<span class="psw">Forgot <a href="#">password?</a></span>
+	 		</div>
+	 	</form>
+	 </div>
+				 <h1  class="icon"> Dave Malkovich</h1>
  				 <p> Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis.Morbi semper nisl et dictum cursus. In hac habitasse platea dictumst. Aliquam blandit etiam vel massa eget mollis. Aliquam blandit etiam vel massa eget mollis. Donec at quam orci. Proin et semper metus consequat etiam.</p>
 
  </div>
@@ -104,8 +372,45 @@
  <li><a href="index.html" style="text-decoration: none;" >Home</a></li>
  <li><a href="news.html"  style="text-decoration: none;" >News</a></li>
  <li><a href="contacts.html"  style="text-decoration: none;" >Contact</a></li>
- <li><a href="about.asp"  style="text-decoration: none;" >About</a></li>
+ <li><a href="about.html"  style="text-decoration: none;" >About</a></li>
 </ul>
 </div>
+<footer style="
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 1em;
+    height: 2em;
+    bottom: 0px;"
+>
+
+<h1 style="width: 100%;
+    background-size: cover;
+    font-size: 1em;
+    position: relative;
+    top: 1em;
+    right: -41em;">
+This site was developed by Stefan Toshkov 2020
+</h1>
+
+</footer>
+<p style="
+    position: relative;
+    color: white;
+    left: 26%;
+    width: 27em;
+    bottom: 1em;
+"> Copyright © 2008-2021 MyAdventureSite . All Rights Reserved.
+You are the light of the world...
+</p>
+</body>
+
+<script>
+ window.onload = function() {
+    document.getElementById("intro").play();
+}
+</script>
+
 
 </html>
