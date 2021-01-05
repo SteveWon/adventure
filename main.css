@@ -140,7 +140,7 @@ li:hover   {
 }
 
 #clickme {
-  position: fixed;
+  position: absolute;
     display: block;
   width: 17em;
   height: 3em;
@@ -154,6 +154,13 @@ li:hover   {
 
 }
 
+#clickme:hover {
+
+   background-color: lightgreen ;
+
+
+
+}
 
 #into2 {
     width: 11%;
