@@ -52,10 +52,10 @@
 
 	 <div id="id01" class="modal">
 
-	   <form class="modal-content animate" action="/action_page.php" method="post">
+	   <form class="modal-content animate" action="" method="post">
 	     <div class="imgcontainer">
 	       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-	       
+
 	     </div>
 
 	     <div class="container">
@@ -65,8 +65,8 @@
 	       <label for="tel"><b>Telephone</b></label>
 	       <input type="password" placeholder="Enter Password" name="tel" required>
 
-				 <label for="psw"><b>Password</b></label>
-				 <input type="password" placeholder="Enter Password" name="psw" required>
+				 <label for="psw"><b>Email address</b></label>
+				 <input type="password" placeholder="...your@email.com" name="psw" required>
 
 
 	       <button type="submit">Send</button>
@@ -76,7 +76,7 @@
 	     </div>
 
 	     <div class="container" style="background-color:#f1f1f1">
-	       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	       <button  onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Back</button>
 	       <span class="psw">Forgot <a href="#">password?</a></span>
 	     </div>
 	   </form>
@@ -405,11 +405,14 @@ This site was developed by Stefan Toshkov 2020
 You are the light of the world...
 </p>
 </body>
-
+<button id="clickme" onclick="location.href='https://credissimo.bg/';"  style =" top: 3%;
+    left: 2em;">Apply NOW !!!</button>
 <script>
  window.onload = function() {
     document.getElementById("intro").play();
 }
+
+document.getElementById("clickme").
 </script>
 
 

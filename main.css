@@ -29,6 +29,7 @@
 }
  .bodynews{
    background-image: url(images/ropotamo.jpg);
+   background-size: 161%;
  }
 .newstop{
 
@@ -137,17 +138,54 @@ li:hover   {
 
 
 }
-#into{
 
-  width: 11%;
-      height: 55%;
-      position: absolute;
-      display: block;
-      top: 30%;
-left: 6px;
+#clickme {
+  position: fixed;
+    display: block;
+  width: 17em;
+  height: 3em;
+  background-color: yellow;
+  border: solid 4px red;
+  border-radius: 1em;
+  color: red;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: unset;
 
 }
 
+
+#into2 {
+    width: 11%;
+    height: 50%;
+    position: absolute;
+    display: block;
+    top: 31%;
+    left: 6px;
+}
+#into {
+    width: 11%;
+    height: 71%;
+    position: absolute;
+    display: block;
+    top: 23%;
+    left: 6px;
+}
+li.about{
+
+  text-decoration: none;
+font-size: 48px;
+font-weight: bold;
+font-family: cursive;
+width: 86%;
+border-radius: 9px;
+background-color: aliceblue;
+opacity: 0.8;
+margin-top: 22%;
+height: 13%;
+padding-top: 19%;
+margin-left: 10%;
+}
 
 .intonews{
 
