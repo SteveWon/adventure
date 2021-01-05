@@ -59,7 +59,7 @@
     }
 
     h1{
-      dicplay: center;
+
       margin:0;
             width:100%;
       font-size: 50px;
@@ -99,7 +99,7 @@ border: solid 4px white;
 border-radius: 9px;
 padding: 5%;
   }
-}
+
 th{
     border-radius: 13px;
      width: 20%;
